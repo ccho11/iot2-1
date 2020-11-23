@@ -7,10 +7,10 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin, HIGH); //LED ON
-  delay(1000);                //1초 대기
+  delay(2000);                //1초 대기
   digitalWrite(ledPin, LOW);  //LED OFF
-  delay(1000);                //1초 대기
+  delay(2000);                //1초 대기
   digitalWrite(ledPin, LOW);  //LED OFF
-  delay(1000);                //1초 대기
+  delay(2000);                //1초 대기
 
 }
